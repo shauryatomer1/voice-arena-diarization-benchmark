@@ -1,0 +1,5 @@
+{
+  "pyannote_3_1": {
+    "load_error": "GatedRepoError: 403 Client Error. (Request ID: Root=1-6af87a71-7d4efc17182027a92a5f09f1;1df21acb-7250-40f3-b848-fa009ff5c701)\n\nCannot access gated repo for url https://huggingface.co/pyannote/speaker-diarization-3.1/resolve/84fd25912480287da0247647c3d2b4853cb3ee5d/config.yaml.\nAccess to model pyannote/speaker-diarization-3.1 is restricted and you are not in the authorized list. Visit https://huggingface.co/pyannote/speaker-diarization-3.1 to ask for access."
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "experiment_id": "exp_20261114T152728Z_981d1eb0",
+  "model_name": "pyannote_3_1",
+  "started_utc": "2026-11-14T15:27:29.073035+00:00",
+  "finished_utc": "2026-11-14T15:31:26.700491+00:00",
+  "track": "primary",
+  "config": {
+    "class": "models.pyannote_model.PyannoteModel",
+    "env_python": ".venv-pyannote/Scripts/python",
+    "raw_dir": "pyannote",
+    "provider": "pyannote.ai (open-source pyannote.audio)",
+    "model_id": "pyannote/speaker-diarization-3.1",
+    "revision": null,
+    "auth": {
+      "env_var": "HF_TOKEN",
+      "gated": true,
+      "licence": "MIT"
+    },
+    "device": "auto",
+    "input": {
+      "sample_rate": 16000,
+      "channels": 1
+    },
+    "params": {
+      "num_speakers": null,
+      "min_speakers": null,
+      "max_speakers": null
+    },
+    "output_field": "speaker_diarization"
+  },
+  "model_metadata": {
+    "provider": "pyannote.ai (open-source pyannote.audio)",
+    "model_name": "pyannote_3_1",
+    "model_id": "pyannote/speaker-diarization-3.1",
+    "revision": "84fd25912480287da0247647c3d2b4853cb3ee5d",
+    "framework": "pyannote.audio",
+    "framework_version": "4.0.7",
+    "licence": "MIT",
+    "gated": true,
+    "input_sample_rate": 16000,
+    "input_channels": 1,
+    "inference_params": {
+      "num_speakers": null,
+      "min_speakers": null,
+      "max_speakers": null
+    },
+    "output_field": "speaker_diarization",
+    "vad_settings": "internal to pipeline (pyannote segmentation-3.0 powerset; defaults kept)",
+    "clustering_settings": "internal to pipeline (VBx-style clustering; defaults kept)",
+    "device": "cuda",
+    "load_time_s": 23.861185999994632,
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "2.14.1+cu126",
+    "cuda_runtime": "12.6",
+    "cuda_available": true,
+    "device_name": "NVIDIA GeForce GTX 1650"
+  },
+  "hardware": {
+    "cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "os": "Windows-10-10.0.26200-SP0",
+    "logical_cpus": 12,
+    "ram_gb": 7.9,
+    "gpu": {
+      "name": "NVIDIA GeForce GTX 1650",
+      "memory_total": "4096 MiB",
+      "driver": "555.99"
+    }
+  },
+  "software": {
+    "torch": "2.14.1+cu126",
+    "torchaudio": "2.11.0+cu126",
+    "pyannote.audio": "4.0.7",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "soundfile": "0.14.0",
+    "scipy": "1.17.1",
+    "huggingface_hub": "2.4.0",
+    "lightning": "2.6.6",
+    "pytorch-lightning": "2.6.6",
+    "PyYAML": "6.0.3"
+  },
+  "load_error": null,
+  "results": [
+    {
+      "recording_id": "ES2004a",
+      "model_name": "pyannote_3_1",
+      "status": "success",
+      "errors": [],
+      "warnings": [],
+      "audio_sha256": "3e2560b19bee6952c7c7ce041b0f1ea8a7ea9468044c4eea79d2a2c67e24ab0f",
+      "audio_duration_s": 1049.3546875,
+      "audio_sample_rate": 16000,
+      "audio_channels": 1,
+      "raw_sha256": "8c29869d472f13957acfc5094502425782493edf411b38eab281a7dce8b2f2a8",
+      "normalized_sha256": "40a85f845c7e0d85f230ccb71507be5417ce6d10d17b1d3a224ccdc422b572fb",
+      "rttm_sha256": "a54fc49485f693bed87db31fa8bfaa35892b6042c3c074046802be7da5db32d7",
+      "inference_time_s": 64.147,
+      "total_wall_time_s": 64.225,
+      "rtf": 0.0611,
+      "processing_speed_x_realtime": 16.36,
+      "num_predicted_speakers": 4,
+      "num_predicted_segments": 264,
+      "peak_rss_mb": 1731.8,
+      "gpu_util_mean_pct": 94.0,
+      "gpu_util_max_pct": 99.0,
+      "gpu_mem_used_max_mb": 2878.0,
+      "gpu_samples": 111,
+      "torch_peak_gpu_alloc_mb": 1707.9,
+      "paths": {
+        "raw": "predictions/pyannote/exp_20261114T152728Z_981d1eb0/ES2004a.raw.json",
+        "normalized": "predictions/normalized/exp_20261114T152728Z_981d1eb0/pyannote_3_1/ES2004a.json",
+        "rttm": "predictions/rttm/exp_20261114T152728Z_981d1eb0/pyannote_3_1/ES2004a.rttm"
+      }
+    },
+    {
+      "recording_id": "IS1009a",
+      "model_name": "pyannote_3_1",
+      "status": "success",
+      "errors": [],
+      "warnings": [],
+      "audio_sha256": "dcb6d045396508dc1865bf0f3abd6181c191fe305a4abcae1e8b2987d482f075",
+      "audio_duration_s": 838.8333125,
+      "audio_sample_rate": 16000,
+      "audio_channels": 1,
+      "raw_sha256": "cd1d2c519f384459b227b19e0e4f7dc299d76aafde2e9263cf59331602defe40",
+      "normalized_sha256": "2e0f02a841430e1e9121966a1c24bd90e547dff468eea1cc2a9958ecc703dac2",
+      "rttm_sha256": "eadd6ac000373c1dbf5a06f7ea3e5e15e7c82f519a98d01dde7e44bc782a7f3d",
+      "inference_time_s": 50.142,
+      "total_wall_time_s": 50.19,
+      "rtf": 0.0598,
+      "processing_speed_x_realtime": 16.73,
+      "num_predicted_speakers": 4,
+      "num_predicted_segments": 231,
+      "peak_rss_mb": 1731.8,
+      "gpu_util_mean_pct": 95.9,
+      "gpu_util_max_pct": 99.0,
+      "gpu_mem_used_max_mb": 2879.0,
+      "gpu_samples": 86,
+      "torch_peak_gpu_alloc_mb": 1707.9,
+      "paths": {
+        "raw": "predictions/pyannote/exp_20261114T152728Z_981d1eb0/IS1009a.raw.json",
+        "normalized": "predictions/normalized/exp_20261114T152728Z_981d1eb0/pyannote_3_1/IS1009a.json",
+        "rttm": "predictions/rttm/exp_20261114T152728Z_981d1eb0/pyannote_3_1/IS1009a.rttm"
+      }
+    },
+    {
+      "recording_id": "TS3003a",
+      "model_name": "pyannote_3_1",
+      "status": "success",
+      "errors": [],
+      "warnings": [],
+      "audio_sha256": "b6ce59ff735c234afdd94b13744aa26f6785af746170543fd03b33160e920a6d",
+      "audio_duration_s": 1505.642625,
+      "audio_sample_rate": 16000,
+      "audio_channels": 1,
+      "raw_sha256": "ebb7b7a3514bc4e12ef910819b92da2a807249c722cebbbd866111167f3c5c37",
+      "normalized_sha256": "d4bd68e1ba3ad3b1516ef9377428dd498fe5e8d2b9316cc37cae7abf37cec05e",
+      "rttm_sha256": "54e5af36919d657acf047c6cb63ddcf4e31da75a3fbbbafaf8b50284ec64a937",
+      "inference_time_s": 90.601,
+      "total_wall_time_s": 90.709,
+      "rtf": 0.0602,
+      "processing_speed_x_realtime": 16.62,
+      "num_predicted_speakers": 2,
+      "num_predicted_segments": 281,
+      "peak_rss_mb": 1731.8,
+      "gpu_util_mean_pct": 97.1,
+      "gpu_util_max_pct": 99.0,
+      "gpu_mem_used_max_mb": 2879.0,
+      "gpu_samples": 156,
+      "torch_peak_gpu_alloc_mb": 1707.9,
+      "paths": {
+        "raw": "predictions/pyannote/exp_20261114T152728Z_981d1eb0/TS3003a.raw.json",
+        "normalized": "predictions/normalized/exp_20261114T152728Z_981d1eb0/pyannote_3_1/TS3003a.json",
+        "rttm": "predictions/rttm/exp_20261114T152728Z_981d1eb0/pyannote_3_1/TS3003a.rttm"
+      }
+    }
+  ]
+}

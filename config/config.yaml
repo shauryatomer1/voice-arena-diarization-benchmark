@@ -1,0 +1,19 @@
+paths:
+  raw_audio: data/raw
+  processed_audio: data/processed
+  ref_original: data/references/original
+  ref_normalized: data/references/normalized
+  metadata: data/metadata
+  logs: logs
+audio:
+  target_sample_rate: 16000
+  target_channels: 1
+  target_subtype: PCM_16
+  allowed_extensions: [.wav, .flac, .ogg]
+  min_duration_s: 1.0
+rttm:
+  duration_tolerance_s: 0.05   # segments may overrun audio end by this much
+  normalized_decimals: 3
+download:
+  timeout_s: 120
+  chunk_bytes: 1048576

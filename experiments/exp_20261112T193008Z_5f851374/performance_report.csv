@@ -1,0 +1,4 @@
+model_name,recording_id,status,audio_duration_s,inference_time_s,total_wall_time_s,rtf,processing_speed_x_realtime,peak_rss_mb,gpu_util_mean_pct,gpu_util_max_pct,gpu_mem_used_max_mb,torch_peak_gpu_alloc_mb,num_predicted_speakers,num_predicted_segments,hardware,errors,warnings
+pyannote_community_1,ES2004a,success,1049.3546875,64.023,64.092,0.061,16.39,1744.9,92.9,99.0,2925.0,1707.9,5,298,cuda: NVIDIA GeForce GTX 1650,,
+pyannote_community_1,IS1009a,success,838.8333125,50.107,50.147,0.0597,16.74,1744.9,95.8,99.0,2907.0,1707.9,4,247,cuda: NVIDIA GeForce GTX 1650,,
+pyannote_community_1,TS3003a,success,1505.642625,91.482,91.577,0.0608,16.46,1744.9,96.5,99.0,2907.0,1707.9,4,356,cuda: NVIDIA GeForce GTX 1650,,

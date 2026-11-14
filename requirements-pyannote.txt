@@ -1,0 +1,15 @@
+# Exact versions used for the pyannote experiments (.venv-pyannote), as run on 2026-11-14.
+# Install torch first:  pip install torch==2.14.1 torchaudio==2.11.0 --index-url https://download.pytorch.org/whl/cu126
+# Pins exist because a Windows Application Control policy on the dev machine blocks the newest compiled wheels
+# (pandas 3.x, scikit-learn 1.9.x, torch 2.8.0 files); these exact versions were verified to load.
+pyannote.audio==4.0.7
+pyannote.metrics==4.2.0
+torch==2.14.1
+torchaudio==2.11.0
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==2.4.6
+scipy==1.17.1
+soundfile==0.14.0
+librosa==0.11.0
+huggingface_hub==2.4.0

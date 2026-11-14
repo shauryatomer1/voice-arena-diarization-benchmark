@@ -1,0 +1,13 @@
+model_name,recording_id,status,audio_duration_s,inference_time_s,total_wall_time_s,rtf,processing_speed_x_realtime,peak_rss_mb,gpu_util_mean_pct,gpu_util_max_pct,gpu_mem_used_max_mb,torch_peak_gpu_alloc_mb,num_predicted_speakers,num_predicted_segments,hardware,errors,warnings
+pyannote_3_1,ES2004a,failed,,,,,,,,,,,,,"cpu: AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD","model load failed: GatedRepoError: 403 Client Error. (Request ID: Root=1-6af61733-37a46a6118a7c45301e252a9;19d2b9b1-e459-4fd4-afd3-bb4f77bb8aae)
+
+Cannot access gated repo for url https://huggingface.co/pyannote/speaker-diarization-3.1/resolve/84fd25912480287da0247647c3d2b4853cb3ee5d/config.yaml.
+Access to model pyannote/speaker-diarization-3.1 is restricted and you are not in the authorized list. Visit https://huggingface.co/pyannote/speaker-diarization-3.1 to ask for access.",
+pyannote_3_1,IS1009a,failed,,,,,,,,,,,,,"cpu: AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD","model load failed: GatedRepoError: 403 Client Error. (Request ID: Root=1-6af61733-37a46a6118a7c45301e252a9;19d2b9b1-e459-4fd4-afd3-bb4f77bb8aae)
+
+Cannot access gated repo for url https://huggingface.co/pyannote/speaker-diarization-3.1/resolve/84fd25912480287da0247647c3d2b4853cb3ee5d/config.yaml.
+Access to model pyannote/speaker-diarization-3.1 is restricted and you are not in the authorized list. Visit https://huggingface.co/pyannote/speaker-diarization-3.1 to ask for access.",
+pyannote_3_1,TS3003a,failed,,,,,,,,,,,,,"cpu: AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD","model load failed: GatedRepoError: 403 Client Error. (Request ID: Root=1-6af61733-37a46a6118a7c45301e252a9;19d2b9b1-e459-4fd4-afd3-bb4f77bb8aae)
+
+Cannot access gated repo for url https://huggingface.co/pyannote/speaker-diarization-3.1/resolve/84fd25912480287da0247647c3d2b4853cb3ee5d/config.yaml.
+Access to model pyannote/speaker-diarization-3.1 is restricted and you are not in the authorized list. Visit https://huggingface.co/pyannote/speaker-diarization-3.1 to ask for access.",

@@ -1,0 +1,63 @@
+recording_id,check,passed,detail
+ES2004a,audio_extension_supported,True,"'.wav' not in ['.wav', '.flac', '.ogg']"
+ES2004a,audio_exists,True,ok
+ES2004a,audio_valid_format_16k_mono_pcm16_nonempty_uncorrupted,True,ok
+ES2004a,normalized_ref_exists,True,ok
+ES2004a,normalized_ref_parses,True,no segments
+ES2004a,normalized_ref_recording_id_consistent,True,unexpected ids: []
+ES2004a,normalized_ref_timestamps_valid,True,negative or missing start/duration
+ES2004a,normalized_ref_durations_positive,True,0 non-positive durations
+ES2004a,normalized_ref_speaker_ids_valid,True,invalid ids: []
+ES2004a,normalized_ref_no_duplicate_segments,True,0 duplicates
+ES2004a,normalized_ref_within_audio_duration,True,0 segments end after 1049.35s (max end 1049.04s)
+ES2004a,original_ref_exists,True,ok
+ES2004a,original_ref_parses,True,no segments
+ES2004a,original_ref_recording_id_consistent,True,unexpected ids: []
+ES2004a,original_ref_timestamps_valid,True,negative or missing start/duration
+ES2004a,original_ref_durations_positive,True,0 non-positive durations
+ES2004a,original_ref_speaker_ids_valid,True,invalid ids: []
+ES2004a,original_ref_no_duplicate_segments,True,0 duplicates
+ES2004a,original_ref_within_audio_duration,True,0 segments end after 1049.35s (max end 1049.04s)
+ES2004a,overlap_preserved_in_normalized,True,segments original=260 normalized=260
+IS1009a,audio_extension_supported,True,"'.wav' not in ['.wav', '.flac', '.ogg']"
+IS1009a,audio_exists,True,ok
+IS1009a,audio_valid_format_16k_mono_pcm16_nonempty_uncorrupted,True,ok
+IS1009a,normalized_ref_exists,True,ok
+IS1009a,normalized_ref_parses,True,no segments
+IS1009a,normalized_ref_recording_id_consistent,True,unexpected ids: []
+IS1009a,normalized_ref_timestamps_valid,True,negative or missing start/duration
+IS1009a,normalized_ref_durations_positive,True,0 non-positive durations
+IS1009a,normalized_ref_speaker_ids_valid,True,invalid ids: []
+IS1009a,normalized_ref_no_duplicate_segments,True,0 duplicates
+IS1009a,normalized_ref_within_audio_duration,True,0 segments end after 838.83s (max end 805.72s)
+IS1009a,original_ref_exists,True,ok
+IS1009a,original_ref_parses,True,no segments
+IS1009a,original_ref_recording_id_consistent,True,unexpected ids: []
+IS1009a,original_ref_timestamps_valid,True,negative or missing start/duration
+IS1009a,original_ref_durations_positive,True,0 non-positive durations
+IS1009a,original_ref_speaker_ids_valid,True,invalid ids: []
+IS1009a,original_ref_no_duplicate_segments,True,0 duplicates
+IS1009a,original_ref_within_audio_duration,True,0 segments end after 838.83s (max end 805.72s)
+IS1009a,overlap_preserved_in_normalized,True,segments original=195 normalized=195
+TS3003a,audio_extension_supported,True,"'.wav' not in ['.wav', '.flac', '.ogg']"
+TS3003a,audio_exists,True,ok
+TS3003a,audio_valid_format_16k_mono_pcm16_nonempty_uncorrupted,True,ok
+TS3003a,normalized_ref_exists,True,ok
+TS3003a,normalized_ref_parses,True,no segments
+TS3003a,normalized_ref_recording_id_consistent,True,unexpected ids: []
+TS3003a,normalized_ref_timestamps_valid,True,negative or missing start/duration
+TS3003a,normalized_ref_durations_positive,True,0 non-positive durations
+TS3003a,normalized_ref_speaker_ids_valid,True,invalid ids: []
+TS3003a,normalized_ref_no_duplicate_segments,True,0 duplicates
+TS3003a,normalized_ref_within_audio_duration,True,0 segments end after 1505.64s (max end 1476.39s)
+TS3003a,original_ref_exists,True,ok
+TS3003a,original_ref_parses,True,no segments
+TS3003a,original_ref_recording_id_consistent,True,unexpected ids: []
+TS3003a,original_ref_timestamps_valid,True,negative or missing start/duration
+TS3003a,original_ref_durations_positive,True,0 non-positive durations
+TS3003a,original_ref_speaker_ids_valid,True,invalid ids: []
+TS3003a,original_ref_no_duplicate_segments,True,0 duplicates
+TS3003a,original_ref_within_audio_duration,True,0 segments end after 1505.64s (max end 1476.39s)
+TS3003a,overlap_preserved_in_normalized,True,segments original=242 normalized=242
+ALL,manifest_ids_match_audio,True,manifest-only=set() audio-only=set()
+ALL,manifest_ids_match_references,True,manifest-only=set() ref-only=set()

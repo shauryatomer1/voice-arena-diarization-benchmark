@@ -1,0 +1,380 @@
+{
+  "total_checks": 62,
+  "passed": 62,
+  "failed": 0,
+  "all_passed": true,
+  "results": [
+    {
+      "recording_id": "ES2004a",
+      "check": "audio_extension_supported",
+      "passed": true,
+      "detail": "'.wav' not in ['.wav', '.flac', '.ogg']"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "audio_exists",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "audio_valid_format_16k_mono_pcm16_nonempty_uncorrupted",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "normalized_ref_exists",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "normalized_ref_parses",
+      "passed": true,
+      "detail": "no segments"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "normalized_ref_recording_id_consistent",
+      "passed": true,
+      "detail": "unexpected ids: []"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "normalized_ref_timestamps_valid",
+      "passed": true,
+      "detail": "negative or missing start/duration"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "normalized_ref_durations_positive",
+      "passed": true,
+      "detail": "0 non-positive durations"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "normalized_ref_speaker_ids_valid",
+      "passed": true,
+      "detail": "invalid ids: []"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "normalized_ref_no_duplicate_segments",
+      "passed": true,
+      "detail": "0 duplicates"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "normalized_ref_within_audio_duration",
+      "passed": true,
+      "detail": "0 segments end after 1049.35s (max end 1049.04s)"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "original_ref_exists",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "original_ref_parses",
+      "passed": true,
+      "detail": "no segments"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "original_ref_recording_id_consistent",
+      "passed": true,
+      "detail": "unexpected ids: []"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "original_ref_timestamps_valid",
+      "passed": true,
+      "detail": "negative or missing start/duration"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "original_ref_durations_positive",
+      "passed": true,
+      "detail": "0 non-positive durations"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "original_ref_speaker_ids_valid",
+      "passed": true,
+      "detail": "invalid ids: []"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "original_ref_no_duplicate_segments",
+      "passed": true,
+      "detail": "0 duplicates"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "original_ref_within_audio_duration",
+      "passed": true,
+      "detail": "0 segments end after 1049.35s (max end 1049.04s)"
+    },
+    {
+      "recording_id": "ES2004a",
+      "check": "overlap_preserved_in_normalized",
+      "passed": true,
+      "detail": "segments original=260 normalized=260"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "audio_extension_supported",
+      "passed": true,
+      "detail": "'.wav' not in ['.wav', '.flac', '.ogg']"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "audio_exists",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "audio_valid_format_16k_mono_pcm16_nonempty_uncorrupted",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "normalized_ref_exists",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "normalized_ref_parses",
+      "passed": true,
+      "detail": "no segments"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "normalized_ref_recording_id_consistent",
+      "passed": true,
+      "detail": "unexpected ids: []"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "normalized_ref_timestamps_valid",
+      "passed": true,
+      "detail": "negative or missing start/duration"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "normalized_ref_durations_positive",
+      "passed": true,
+      "detail": "0 non-positive durations"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "normalized_ref_speaker_ids_valid",
+      "passed": true,
+      "detail": "invalid ids: []"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "normalized_ref_no_duplicate_segments",
+      "passed": true,
+      "detail": "0 duplicates"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "normalized_ref_within_audio_duration",
+      "passed": true,
+      "detail": "0 segments end after 838.83s (max end 805.72s)"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "original_ref_exists",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "original_ref_parses",
+      "passed": true,
+      "detail": "no segments"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "original_ref_recording_id_consistent",
+      "passed": true,
+      "detail": "unexpected ids: []"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "original_ref_timestamps_valid",
+      "passed": true,
+      "detail": "negative or missing start/duration"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "original_ref_durations_positive",
+      "passed": true,
+      "detail": "0 non-positive durations"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "original_ref_speaker_ids_valid",
+      "passed": true,
+      "detail": "invalid ids: []"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "original_ref_no_duplicate_segments",
+      "passed": true,
+      "detail": "0 duplicates"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "original_ref_within_audio_duration",
+      "passed": true,
+      "detail": "0 segments end after 838.83s (max end 805.72s)"
+    },
+    {
+      "recording_id": "IS1009a",
+      "check": "overlap_preserved_in_normalized",
+      "passed": true,
+      "detail": "segments original=195 normalized=195"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "audio_extension_supported",
+      "passed": true,
+      "detail": "'.wav' not in ['.wav', '.flac', '.ogg']"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "audio_exists",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "audio_valid_format_16k_mono_pcm16_nonempty_uncorrupted",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "normalized_ref_exists",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "normalized_ref_parses",
+      "passed": true,
+      "detail": "no segments"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "normalized_ref_recording_id_consistent",
+      "passed": true,
+      "detail": "unexpected ids: []"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "normalized_ref_timestamps_valid",
+      "passed": true,
+      "detail": "negative or missing start/duration"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "normalized_ref_durations_positive",
+      "passed": true,
+      "detail": "0 non-positive durations"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "normalized_ref_speaker_ids_valid",
+      "passed": true,
+      "detail": "invalid ids: []"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "normalized_ref_no_duplicate_segments",
+      "passed": true,
+      "detail": "0 duplicates"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "normalized_ref_within_audio_duration",
+      "passed": true,
+      "detail": "0 segments end after 1505.64s (max end 1476.39s)"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "original_ref_exists",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "original_ref_parses",
+      "passed": true,
+      "detail": "no segments"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "original_ref_recording_id_consistent",
+      "passed": true,
+      "detail": "unexpected ids: []"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "original_ref_timestamps_valid",
+      "passed": true,
+      "detail": "negative or missing start/duration"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "original_ref_durations_positive",
+      "passed": true,
+      "detail": "0 non-positive durations"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "original_ref_speaker_ids_valid",
+      "passed": true,
+      "detail": "invalid ids: []"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "original_ref_no_duplicate_segments",
+      "passed": true,
+      "detail": "0 duplicates"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "original_ref_within_audio_duration",
+      "passed": true,
+      "detail": "0 segments end after 1505.64s (max end 1476.39s)"
+    },
+    {
+      "recording_id": "TS3003a",
+      "check": "overlap_preserved_in_normalized",
+      "passed": true,
+      "detail": "segments original=242 normalized=242"
+    },
+    {
+      "recording_id": "ALL",
+      "check": "manifest_ids_match_audio",
+      "passed": true,
+      "detail": "manifest-only=set() audio-only=set()"
+    },
+    {
+      "recording_id": "ALL",
+      "check": "manifest_ids_match_references",
+      "passed": true,
+      "detail": "manifest-only=set() ref-only=set()"
+    }
+  ]
+}

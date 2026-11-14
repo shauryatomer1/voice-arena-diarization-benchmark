@@ -1,0 +1,17 @@
+# Recordings chosen for the Phase 1 experiment. URLs verified (HTTP 200) on 2026-11-12.
+# Audio: AMI "Headset mix" (Mix-Headset.wav), a single-channel mix of the close-talk headsets.
+# Reference: pyannote/AMI-diarization-setup `only_words` RTTMs (derived from the official AMI
+# manual word-level annotations; the setup used by pyannote.audio's AMI recipe).
+dataset:
+  name: AMI Meeting Corpus
+  homepage: https://groups.inf.ed.ac.uk/ami/corpus/
+  licence: "CC BY 4.0 (signals, transcriptions, some annotations); see https://groups.inf.ed.ac.uk/ami/download/"
+  audio_url_template: "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/{id}/audio/{id}.Mix-Headset.wav"
+  rttm_url_template: "https://raw.githubusercontent.com/pyannote/AMI-diarization-setup/main/only_words/rttms/{split}/{id}.rttm"
+  split_list_url: "https://raw.githubusercontent.com/pyannote/AMI-diarization-setup/main/lists/{split}.meetings.txt"
+  rttm_licence: "Apache-2.0 (pyannote/AMI-diarization-setup)"
+  language: en
+recordings:
+  - {id: ES2004a, split: test, meeting_type: "ES - scenario design meeting"}
+  - {id: IS1009a, split: test, meeting_type: "IS - scenario design meeting"}
+  - {id: TS3003a, split: test, meeting_type: "TS - scenario design meeting"}

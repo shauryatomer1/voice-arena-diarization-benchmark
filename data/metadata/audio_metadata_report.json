@@ -1,0 +1,74 @@
+[
+  {
+    "recording_id": "ES2004a",
+    "stage": "raw",
+    "path": "data/raw/ES2004a.Mix-Headset.wav",
+    "format": "WAV",
+    "subtype": "PCM_16",
+    "sample_rate": 16000,
+    "channels": 1,
+    "frames": 16789675,
+    "duration_s": 1049.3546875,
+    "file_size_bytes": 33579394
+  },
+  {
+    "recording_id": "ES2004a",
+    "stage": "processed",
+    "path": "data/processed/ES2004a.wav",
+    "format": "WAV",
+    "subtype": "PCM_16",
+    "sample_rate": 16000,
+    "channels": 1,
+    "frames": 16789675,
+    "duration_s": 1049.3546875,
+    "file_size_bytes": 33579394
+  },
+  {
+    "recording_id": "IS1009a",
+    "stage": "raw",
+    "path": "data/raw/IS1009a.Mix-Headset.wav",
+    "format": "WAV",
+    "subtype": "PCM_16",
+    "sample_rate": 16000,
+    "channels": 1,
+    "frames": 13421333,
+    "duration_s": 838.8333125,
+    "file_size_bytes": 26844093
+  },
+  {
+    "recording_id": "IS1009a",
+    "stage": "processed",
+    "path": "data/processed/IS1009a.wav",
+    "format": "WAV",
+    "subtype": "PCM_16",
+    "sample_rate": 16000,
+    "channels": 1,
+    "frames": 13421333,
+    "duration_s": 838.8333125,
+    "file_size_bytes": 26842710
+  },
+  {
+    "recording_id": "TS3003a",
+    "stage": "raw",
+    "path": "data/raw/TS3003a.Mix-Headset.wav",
+    "format": "WAV",
+    "subtype": "PCM_16",
+    "sample_rate": 16000,
+    "channels": 1,
+    "frames": 24090282,
+    "duration_s": 1505.642625,
+    "file_size_bytes": 48180608
+  },
+  {
+    "recording_id": "TS3003a",
+    "stage": "processed",
+    "path": "data/processed/TS3003a.wav",
+    "format": "WAV",
+    "subtype": "PCM_16",
+    "sample_rate": 16000,
+    "channels": 1,
+    "frames": 24090282,
+    "duration_s": 1505.642625,
+    "file_size_bytes": 48180608
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "pyannote_3_1": {
+    "load_error": "OSError: [WinError 4551] An Application Control policy has blocked this file. Error loading \"C:\\Users\\shaur\\BA projects\\Josh_fde_intern\\voice-arena\\.venv-pyannote\\Lib\\site-packages\\torch\\lib\\c10_cuda.dll\" or one of its dependencies."
+  }
+}

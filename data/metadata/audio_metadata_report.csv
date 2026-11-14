@@ -1,0 +1,7 @@
+recording_id,stage,path,format,subtype,sample_rate,channels,frames,duration_s,file_size_bytes
+ES2004a,raw,data/raw/ES2004a.Mix-Headset.wav,WAV,PCM_16,16000,1,16789675,1049.3546875,33579394
+ES2004a,processed,data/processed/ES2004a.wav,WAV,PCM_16,16000,1,16789675,1049.3546875,33579394
+IS1009a,raw,data/raw/IS1009a.Mix-Headset.wav,WAV,PCM_16,16000,1,13421333,838.8333125,26844093
+IS1009a,processed,data/processed/IS1009a.wav,WAV,PCM_16,16000,1,13421333,838.8333125,26842710
+TS3003a,raw,data/raw/TS3003a.Mix-Headset.wav,WAV,PCM_16,16000,1,24090282,1505.642625,48180608
+TS3003a,processed,data/processed/TS3003a.wav,WAV,PCM_16,16000,1,24090282,1505.642625,48180608

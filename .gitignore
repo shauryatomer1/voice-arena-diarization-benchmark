@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+data/raw/*
+data/processed/*
+data/references/original/*
+!**/.gitkeep
+logs/*.log
+
+.venv-nemo/
+.venv-pyannote/
+*.zip
+submission_sources/
+logs/
+.env

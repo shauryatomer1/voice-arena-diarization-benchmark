@@ -1,0 +1,139 @@
+{
+  "experiment_id": "exp_20261112T192912Z_5f851374",
+  "track": "primary",
+  "models_requested": [
+    "pyannote_community_1"
+  ],
+  "models_without_results": [],
+  "hardware": {
+    "cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "os": "Windows-10-10.0.26200-SP0",
+    "logical_cpus": 12,
+    "ram_gb": 7.9,
+    "gpu": {
+      "name": "NVIDIA GeForce GTX 1650",
+      "memory_total": "4096 MiB",
+      "driver": "555.99"
+    }
+  },
+  "software_per_model": {
+    "pyannote_community_1": {
+      "torch": "2.8.0+cu126",
+      "torchaudio": "2.8.0+cu126",
+      "pyannote.audio": "4.0.7",
+      "numpy": "2.4.6",
+      "pandas": "2.2.3",
+      "soundfile": "0.14.0",
+      "scipy": "1.17.1",
+      "huggingface_hub": "2.4.0",
+      "lightning": "2.6.6",
+      "pytorch-lightning": "2.6.6",
+      "PyYAML": "6.0.3"
+    }
+  },
+  "model_configs": {
+    "pyannote_community_1": {
+      "class": "models.pyannote_model.PyannoteModel",
+      "env_python": ".venv-pyannote/Scripts/python",
+      "raw_dir": "pyannote",
+      "provider": "pyannote.ai (open-source pyannote.audio)",
+      "model_id": "pyannote/speaker-diarization-community-1",
+      "revision": null,
+      "auth": {
+        "env_var": "HF_TOKEN",
+        "gated": true,
+        "licence": "CC-BY-4.0"
+      },
+      "device": "auto",
+      "input": {
+        "sample_rate": 16000,
+        "channels": 1
+      },
+      "params": {
+        "num_speakers": null,
+        "min_speakers": null,
+        "max_speakers": null
+      },
+      "output_field": "speaker_diarization"
+    }
+  },
+  "model_metadata": {
+    "pyannote_community_1": {
+      "load_error": "ImportError: DLL load failed while importing _cython_blas: An Application Control policy has blocked this file."
+    }
+  },
+  "input_hashes": {
+    "ES2004a": null,
+    "IS1009a": null,
+    "TS3003a": null
+  },
+  "prediction_hashes": {
+    "pyannote_community_1": {
+      "ES2004a": {
+        "raw_sha256": null,
+        "normalized_sha256": null,
+        "rttm_sha256": null
+      },
+      "IS1009a": {
+        "raw_sha256": null,
+        "normalized_sha256": null,
+        "rttm_sha256": null
+      },
+      "TS3003a": {
+        "raw_sha256": null,
+        "normalized_sha256": null,
+        "rttm_sha256": null
+      }
+    }
+  },
+  "started_utc": "2026-11-12T19:29:13.464135+00:00",
+  "finished_utc": "2026-11-12T19:29:29.214004+00:00",
+  "errors": [
+    {
+      "model": "pyannote_community_1",
+      "recording_id": "ES2004a",
+      "error": "model load failed: ImportError: DLL load failed while importing _cython_blas: An Application Control policy has blocked this file."
+    },
+    {
+      "model": "pyannote_community_1",
+      "recording_id": "IS1009a",
+      "error": "model load failed: ImportError: DLL load failed while importing _cython_blas: An Application Control policy has blocked this file."
+    },
+    {
+      "model": "pyannote_community_1",
+      "recording_id": "TS3003a",
+      "error": "model load failed: ImportError: DLL load failed while importing _cython_blas: An Application Control policy has blocked this file."
+    }
+  ],
+  "results": {
+    "pyannote_community_1": [
+      {
+        "recording_id": "ES2004a",
+        "model_name": "pyannote_community_1",
+        "status": "failed",
+        "errors": [
+          "model load failed: ImportError: DLL load failed while importing _cython_blas: An Application Control policy has blocked this file."
+        ],
+        "warnings": []
+      },
+      {
+        "recording_id": "IS1009a",
+        "model_name": "pyannote_community_1",
+        "status": "failed",
+        "errors": [
+          "model load failed: ImportError: DLL load failed while importing _cython_blas: An Application Control policy has blocked this file."
+        ],
+        "warnings": []
+      },
+      {
+        "recording_id": "TS3003a",
+        "model_name": "pyannote_community_1",
+        "status": "failed",
+        "errors": [
+          "model load failed: ImportError: DLL load failed while importing _cython_blas: An Application Control policy has blocked this file."
+        ],
+        "warnings": []
+      }
+    ]
+  }
+}

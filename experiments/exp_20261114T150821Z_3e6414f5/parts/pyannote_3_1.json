@@ -1,0 +1,88 @@
+{
+  "experiment_id": "exp_20261114T150821Z_3e6414f5",
+  "model_name": "pyannote_3_1",
+  "started_utc": "2026-11-14T15:12:15.457054+00:00",
+  "finished_utc": "2026-11-14T15:12:34.853440+00:00",
+  "track": "primary",
+  "config": {
+    "class": "models.pyannote_model.PyannoteModel",
+    "env_python": ".venv-pyannote/Scripts/python",
+    "raw_dir": "pyannote",
+    "provider": "pyannote.ai (open-source pyannote.audio)",
+    "model_id": "pyannote/speaker-diarization-3.1",
+    "revision": null,
+    "auth": {
+      "env_var": "HF_TOKEN",
+      "gated": true,
+      "licence": "MIT"
+    },
+    "device": "auto",
+    "input": {
+      "sample_rate": 16000,
+      "channels": 1
+    },
+    "params": {
+      "num_speakers": null,
+      "min_speakers": null,
+      "max_speakers": null
+    },
+    "output_field": "speaker_diarization"
+  },
+  "model_metadata": {
+    "load_error": "ConnectError: [Errno 11001] getaddrinfo failed"
+  },
+  "hardware": {
+    "cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "os": "Windows-10-10.0.26200-SP0",
+    "logical_cpus": 12,
+    "ram_gb": 7.9,
+    "gpu": {
+      "name": "NVIDIA GeForce GTX 1650",
+      "memory_total": "4096 MiB",
+      "driver": "555.99"
+    }
+  },
+  "software": {
+    "torch": "2.14.1+cu126",
+    "torchaudio": "2.11.0+cu126",
+    "pyannote.audio": "4.0.7",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "soundfile": "0.14.0",
+    "scipy": "1.17.1",
+    "huggingface_hub": "2.4.0",
+    "lightning": "2.6.6",
+    "pytorch-lightning": "2.6.6",
+    "PyYAML": "6.0.3"
+  },
+  "load_error": "ConnectError: [Errno 11001] getaddrinfo failed",
+  "results": [
+    {
+      "recording_id": "ES2004a",
+      "model_name": "pyannote_3_1",
+      "status": "failed",
+      "errors": [
+        "model load failed: ConnectError: [Errno 11001] getaddrinfo failed"
+      ],
+      "warnings": []
+    },
+    {
+      "recording_id": "IS1009a",
+      "model_name": "pyannote_3_1",
+      "status": "failed",
+      "errors": [
+        "model load failed: ConnectError: [Errno 11001] getaddrinfo failed"
+      ],
+      "warnings": []
+    },
+    {
+      "recording_id": "TS3003a",
+      "model_name": "pyannote_3_1",
+      "status": "failed",
+      "errors": [
+        "model load failed: ConnectError: [Errno 11001] getaddrinfo failed"
+      ],
+      "warnings": []
+    }
+  ]
+}

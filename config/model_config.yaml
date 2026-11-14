@@ -1,0 +1,53 @@
+# Model registry configuration. Each model runs in its own virtualenv because pyannote.audio 4.x and
+# NVIDIA NeMo pin incompatible dependency versions. Fairness = identical input audio + identical
+# scoring rules, NOT forcing identical internal parameters (each model keeps its recommended settings).
+track: primary            # primary = NO reference speaker count / transcript / annotations given to any model
+input:
+  audio_dir: data/processed       # Phase 1 output (WAV, PCM-16, 16 kHz, mono)
+  manifest: data/metadata/dataset_manifest.csv
+output:
+  root: predictions               # predictions/{pyannote,nemo}/<exp>/ (raw), predictions/normalized, predictions/rttm
+  experiments: experiments        # experiments/<experiment_id>/manifest.json
+models:
+  pyannote_community_1:
+    class: models.pyannote_model.PyannoteModel
+    env_python: .venv-pyannote/Scripts/python     # POSIX: .venv-pyannote/bin/python
+    raw_dir: pyannote
+    provider: pyannote.ai (open-source pyannote.audio)
+    model_id: pyannote/speaker-diarization-community-1
+    revision: null              # null -> resolved to the exact Hugging Face commit SHA at load time and recorded
+    auth: {env_var: HF_TOKEN, gated: true, licence: CC-BY-4.0}
+    device: auto                # cuda if available else cpu
+    input: {sample_rate: 16000, channels: 1}
+    params:                     # pipeline defaults are kept; counts stay null in the primary track
+      num_speakers: null
+      min_speakers: null
+      max_speakers: null
+    output_field: speaker_diarization   # overlap-aware; exclusive_speaker_diarization stored in raw only
+  pyannote_3_1:
+    class: models.pyannote_model.PyannoteModel
+    env_python: .venv-pyannote/Scripts/python
+    raw_dir: pyannote
+    provider: pyannote.ai (open-source pyannote.audio)
+    model_id: pyannote/speaker-diarization-3.1
+    revision: null              # resolved to the exact Hugging Face commit SHA at load time and recorded
+    auth: {env_var: HF_TOKEN, gated: true, licence: MIT}
+    device: auto
+    input: {sample_rate: 16000, channels: 1}
+    params: {num_speakers: null, min_speakers: null, max_speakers: null}
+    output_field: speaker_diarization   # 3.1 may return a bare Annotation; the wrapper handles both
+  nemo_msdd:
+    class: models.nemo_model.NemoMSDDModel
+    env_python: .venv-nemo/Scripts/python
+    raw_dir: nemo
+    provider: NVIDIA NeMo
+    framework_config: config/nemo/diar_infer_meeting.yaml   # NeMo's own recommended inference config (downloaded, pinned)
+    pretrained:
+      vad_model: vad_multilingual_marblenet
+      speaker_embedding_model: titanet_large
+      msdd_model: diar_msdd_telephonic
+    device: auto
+    input: {sample_rate: 16000, channels: 1}
+    params:
+      oracle_num_speakers: false    # speaker count estimated by NME-SC clustering
+      max_num_speakers: 8           # NeMo default upper bound, not derived from the reference

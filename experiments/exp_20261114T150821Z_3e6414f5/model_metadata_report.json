@@ -1,0 +1,33 @@
+{
+  "pyannote_community_1": {
+    "provider": "pyannote.ai (open-source pyannote.audio)",
+    "model_name": "pyannote_community_1",
+    "model_id": "pyannote/speaker-diarization-community-1",
+    "revision": "3533c8cf8e369892e6b79ff1bf80f7b0286a54ee",
+    "framework": "pyannote.audio",
+    "framework_version": "4.0.7",
+    "licence": "CC-BY-4.0",
+    "gated": true,
+    "input_sample_rate": 16000,
+    "input_channels": 1,
+    "inference_params": {
+      "num_speakers": null,
+      "min_speakers": null,
+      "max_speakers": null
+    },
+    "output_field": "speaker_diarization",
+    "vad_settings": "internal to pipeline (pyannote segmentation-3.0 powerset; defaults kept)",
+    "clustering_settings": "internal to pipeline (VBx-style clustering; defaults kept)",
+    "device": "cuda",
+    "load_time_s": 2.192892599996412,
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "2.14.1+cu126",
+    "cuda_runtime": "12.6",
+    "cuda_available": true,
+    "device_name": "NVIDIA GeForce GTX 1650"
+  },
+  "pyannote_3_1": {
+    "load_error": "ConnectError: [Errno 11001] getaddrinfo failed"
+  }
+}
